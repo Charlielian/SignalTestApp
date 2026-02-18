@@ -3,9 +3,10 @@ title = TestApp
 package.name = testapp
 package.domain = com.test
 source.dir = .
-requirements = python3,kivy
+requirements = python3,kivy,cython
 android.permissions = INTERNET
 version = 1.0
+android.archs = armeabi-v7a,arm64-v8a
 
 [buildozer]
 log_level = 2

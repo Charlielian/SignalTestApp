@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.signal.test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="31" />
+10
+11    <!-- 必要的权限 -->
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:8:5-65
+14-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:8:22-62
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:9:5-81
+15-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:10:5-80
+16-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:11:5-79
+17-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:12:5-75
+18-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:12:22-72
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:13:5-67
+19-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:13:22-64
+20
+21    <!-- 相机功能声明 -->
+22    <uses-feature android:name="android.hardware.camera" />
+22-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:16:5-60
+22-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:16:19-57
+23    <uses-feature android:name="android.hardware.camera.autofocus" />
+23-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:17:5-70
+23-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:17:19-67
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+27
+28    <queries>
+28-->[com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+29
+30        <!-- Needs to be explicitly declared on Android R+ -->
+31        <package android:name="com.google.android.apps.maps" />
+31-->[com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+31-->[com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+32    </queries>
+33
+34    <application
+34-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:19:5-55:19
+35        android:allowBackup="true"
+35-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:20:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.7.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/43c1a0d3844d0879f77bd921b2e5fc25/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:label="信号测试工具"
+39-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:21:9-31
+40        android:supportsRtl="true"
+40-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:22:9-35
+41        android:testOnly="true"
+42        android:theme="@style/Theme.SignalTest" >
+42-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:23:9-48
+43
+44        <!-- Google Maps API Key -->
+45        <meta-data
+45-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:26:9-28:49
+46            android:name="com.google.android.geo.API_KEY"
+46-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:27:13-58
+47            android:value="YOUR_API_KEY_HERE" />
+47-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:28:13-46
+48        <meta-data
+48-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:29:9-31:69
+49            android:name="com.google.android.gms.version"
+49-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:30:13-58
+50            android:value="@integer/google_play_services_version" />
+50-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:31:13-66
+51
+52        <activity
+52-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:32:9-39:20
+53            android:name="com.signal.test.activities.MainActivity"
+53-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:33:13-52
+54            android:exported="true" >
+54-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:34:13-36
+55            <intent-filter>
+55-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:35:13-38:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:36:17-69
+56-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:36:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:37:17-77
+58-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:37:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:40:9-42:40
+62            android:name="com.signal.test.activities.CameraActivity"
+62-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:41:13-54
+63            android:exported="false" />
+63-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:42:13-37
+64        <activity
+64-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:43:9-45:40
+65            android:name="com.signal.test.activities.HistoryActivity"
+65-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:44:13-55
+66            android:exported="false" />
+66-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:45:13-37
+67        <activity
+67-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:46:9-48:40
+68            android:name="com.signal.test.activities.ChartActivity"
+68-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:47:13-53
+69            android:exported="false" />
+69-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:48:13-37
+70        <activity
+70-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:49:9-51:40
+71            android:name="com.signal.test.activities.MapActivity"
+71-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:50:13-51
+72            android:exported="false" />
+72-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:51:13-37
+73        <activity
+73-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:52:9-54:40
+74            android:name="com.signal.test.activities.BatchTestActivity"
+74-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:53:13-57
+75            android:exported="false" />
+75-->/Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:54:13-37
+76
+77        <service
+77-->[androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:26:9-35:19
+78            android:name="androidx.camera.core.impl.MetadataHolderService"
+78-->[androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:27:13-75
+79            android:enabled="false"
+79-->[androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:28:13-36
+80            android:exported="false" >
+80-->[androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:29:13-37
+81            <meta-data
+81-->[androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:32:13-34:89
+82                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+82-->[androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:33:17-103
+83                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+83-->[androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:34:17-86
+84        </service> <!-- Needs to be explicitly declared on P+ -->
+85        <uses-library
+85-->[com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+86            android:name="org.apache.http.legacy"
+86-->[com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+87            android:required="false" />
+87-->[com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+88
+89        <activity
+89-->[com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/13b5ede89198651c43daa03210d717b1/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+90-->[com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/13b5ede89198651c43daa03210d717b1/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/13b5ede89198651c43daa03210d717b1/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/13b5ede89198651c43daa03210d717b1/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+96            android:authorities="com.signal.test.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bef38f09f0f623828c2dee23fe37c11/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bef38f09f0f623828c2dee23fe37c11/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bef38f09f0f623828c2dee23fe37c11/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+104        </provider>
+105    </application>
+106
+107</manifest>

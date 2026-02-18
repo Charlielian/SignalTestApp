@@ -1,0 +1,7 @@
+# Requirements for SignalTestApp Installer
+# This script only uses standard library modules
+# No external dependencies required
+
+# Python 3.6+
+# ADB (Android Debug Bridge) must be installed separately
+# You can download ADB from the Android SDK Platform Tools

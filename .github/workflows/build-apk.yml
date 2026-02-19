@@ -1,0 +1,90 @@
+name: Build Android APK with Buildozer
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+      
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y build-essential ccache git zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev curl libbz2-dev
+          sudo apt install -y openjdk-11-jdk
+          sudo apt install -y unzip
+          python -m pip install --upgrade pip
+          pip install --upgrade setuptools wheel
+          pip install buildozer cython==0.29.33
+      
+      - name: Install Android SDK and NDK
+        run: |
+          mkdir -p ~/.buildozer/android/platform
+          cd ~/.buildozer/android/platform
+          wget -q https://dl.google.com/android/repository/android-ndk-r25b-linux.zip
+          unzip -q android-ndk-r25b-linux.zip
+          rm android-ndk-r25b-linux.zip
+          mv android-ndk-r25b android-ndk
+          wget -q https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip
+          unzip -q commandlinetools-linux-8512546_latest.zip
+          rm commandlinetools-linux-8512546_latest.zip
+          mkdir -p android-sdk/cmdline-tools/latest
+          mv cmdline-tools/* android-sdk/cmdline-tools/latest/
+      
+      - name: Set environment variables
+        run: |
+          echo "ANDROID_SDK_ROOT=$HOME/.buildozer/android/platform/android-sdk" >> $GITHUB_ENV
+          echo "ANDROID_NDK_HOME=$HOME/.buildozer/android/platform/android-ndk" >> $GITHUB_ENV
+          echo "PATH=$PATH:$HOME/.buildozer/android/platform/android-sdk/cmdline-tools/latest/bin:$HOME/.buildozer/android/platform/android-sdk/platform-tools" >> $GITHUB_ENV
+          echo "PATH=$PATH:$HOME/.local/bin" >> $GITHUB_ENV
+      
+      - name: Accept SDK licenses
+        run: |
+          yes | sdkmanager --licenses > /dev/null 2>&1 || true
+      
+      - name: Find buildozer.spec file
+        run: |
+          ls -la
+          find . -name "buildozer.spec"
+      
+      - name: Build APK with Buildozer
+        run: |
+          # Find the directory containing buildozer.spec
+          SPEC_DIR=$(find . -name "buildozer.spec" -exec dirname {} \; | head -1)
+          echo "Found buildozer.spec in directory: $SPEC_DIR"
+          cd "$SPEC_DIR"
+          which cython || echo "Cython not found in PATH"
+          cython --version || echo "Cython version check failed"
+          ls -la
+          buildozer android debug --verbose
+      
+      - name: Upload APK artifact
+        run: |
+          # Find the directory containing bin folder
+          BIN_DIR=$(find . -name "bin" -type d | head -1)
+          echo "Found bin directory: $BIN_DIR"
+          if [ -d "$BIN_DIR" ]; then
+            cp -r "$BIN_DIR" ./bin
+          fi
+        shell: bash
+      
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: signal-test-app-apk
+          path: bin/*
+          retention-days: 30

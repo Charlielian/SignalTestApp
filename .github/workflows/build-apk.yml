@@ -35,15 +35,17 @@ jobs:
         run: |
           mkdir -p ~/.buildozer/android/platform
           cd ~/.buildozer/android/platform
+          # Download Android SDK Command Line Tools
+          wget -q https://dl.google.com/android/repository/commandlinetools-linux-10406996_latest.zip
+          unzip -q commandlinetools-linux-10406996_latest.zip
+          rm commandlinetools-linux-10406996_latest.zip
+          mkdir -p android-sdk/cmdline-tools/latest
+          mv cmdline-tools/* android-sdk/cmdline-tools/latest/
+          # Download Android NDK
           wget -q https://dl.google.com/android/repository/android-ndk-r25b-linux.zip
           unzip -q android-ndk-r25b-linux.zip
           rm android-ndk-r25b-linux.zip
           mv android-ndk-r25b android-ndk
-          wget -q https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip
-          unzip -q commandlinetools-linux-8512546_latest.zip
-          rm commandlinetools-linux-8512546_latest.zip
-          mkdir -p android-sdk/cmdline-tools/latest
-          mv cmdline-tools/* android-sdk/cmdline-tools/latest/
       
       - name: Set environment variables
         run: |
@@ -63,9 +65,15 @@ jobs:
       
       - name: Build APK with Buildozer
         run: |
-          # Find the directory containing buildozer.spec
-          SPEC_DIR=$(find . -name "buildozer.spec" -exec dirname {} \; | head -1)
-          echo "Found buildozer.spec in directory: $SPEC_DIR"
+          # Find SignalTestApp_Python_Clean directory specifically
+          if [ -d "SignalTestApp_Python_Clean" ] && [ -f "SignalTestApp_Python_Clean/buildozer.spec" ]; then
+            SPEC_DIR="SignalTestApp_Python_Clean"
+            echo "Found buildozer.spec in SignalTestApp_Python_Clean directory"
+          else
+            # Fallback to finding any buildozer.spec
+            SPEC_DIR=$(find . -name "buildozer.spec" -exec dirname {} \; | head -1)
+            echo "Found buildozer.spec in directory: $SPEC_DIR"
+          fi
           cd "$SPEC_DIR"
           which cython || echo "Cython not found in PATH"
           cython --version || echo "Cython version check failed"
@@ -74,11 +82,17 @@ jobs:
       
       - name: Upload APK artifact
         run: |
-          # Find the directory containing bin folder
-          BIN_DIR=$(find . -name "bin" -type d | head -1)
+          # Find the directory containing bin folder in SignalTestApp_Python_Clean
+          if [ -d "SignalTestApp_Python_Clean/bin" ]; then
+            BIN_DIR="SignalTestApp_Python_Clean/bin"
+          else
+            # Fallback to finding any bin directory
+            BIN_DIR=$(find . -name "bin" -type d | head -1)
+          fi
           echo "Found bin directory: $BIN_DIR"
           if [ -d "$BIN_DIR" ]; then
-            cp -r "$BIN_DIR" ./bin
+            mkdir -p ./bin
+            cp -r "$BIN_DIR"/* ./bin/
           fi
         shell: bash
       

@@ -54,9 +54,15 @@ jobs:
           echo "PATH=$PATH:$HOME/.buildozer/android/platform/android-sdk/cmdline-tools/latest/bin:$HOME/.buildozer/android/platform/android-sdk/platform-tools" >> $GITHUB_ENV
           echo "PATH=$PATH:$HOME/.local/bin" >> $GITHUB_ENV
       
+      - name: Install SDK components
+        run: |
+          # Install platform-tools and other necessary components
+          sdkmanager "platform-tools" "platforms;android-31" "build-tools;31.0.0" --sdk_root=$ANDROID_SDK_ROOT
+        shell: bash
+      
       - name: Accept SDK licenses
         run: |
-          yes | sdkmanager --licenses > /dev/null 2>&1 || true
+          yes | sdkmanager --licenses --sdk_root=$ANDROID_SDK_ROOT > /dev/null 2>&1 || true
       
       - name: Find buildozer.spec file
         run: |

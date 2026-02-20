@@ -1,0 +1,41 @@
+# Buildozer generated files
+.buildozer/
+bin/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SignalTestApp_Python_Clean build files
+SignalTestApp_Python_Clean/.buildozer/
+SignalTestApp_Python_Clean/bin/
+SignalTestApp_Python_Clean/__pycache__/
+
+# Other SignalTestApp variants
+SignalTestApp/.buildozer/
+SignalTestApp/bin/
+SignalTestApp_Python/.buildozer/
+SignalTestApp_Python/bin/
+SignalTestApp_Python_New/.buildozer/
+SignalTestApp_Python_New/bin/
+TestApp/.buildozer/
+TestApp/bin/
+TestAppMinimal/.buildozer/
+TestAppMinimal/bin/

@@ -56,6 +56,12 @@ jobs:
           echo "PATH=$PATH:$HOME/.buildozer/android/platform/android-sdk/cmdline-tools/latest/bin:$HOME/.buildozer/android/platform/android-sdk/platform-tools" >> $GITHUB_ENV
           echo "PATH=$PATH:$HOME/.local/bin" >> $GITHUB_ENV
       
+      - name: Create symlink for sdkmanager compatibility
+        run: |
+          # Create symlink from old path to new path for buildozer compatibility
+          mkdir -p ~/.buildozer/android/platform/android-sdk/tools/bin
+          ln -sf $SDKMANAGER_PATH ~/.buildozer/android/platform/android-sdk/tools/bin/sdkmanager
+      
       - name: Install SDK components
         run: |
           # Use absolute path to sdkmanager

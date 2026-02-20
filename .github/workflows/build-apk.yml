@@ -46,23 +46,27 @@ jobs:
           unzip -q android-ndk-r25b-linux.zip
           rm android-ndk-r25b-linux.zip
           mv android-ndk-r25b android-ndk
+          # Set SDK path variables
+          echo "ANDROID_SDK_ROOT=$HOME/.buildozer/android/platform/android-sdk" >> $GITHUB_ENV
+          echo "ANDROID_NDK_HOME=$HOME/.buildozer/android/platform/android-ndk" >> $GITHUB_ENV
+          echo "SDKMANAGER_PATH=$HOME/.buildozer/android/platform/android-sdk/cmdline-tools/latest/bin/sdkmanager" >> $GITHUB_ENV
       
       - name: Set environment variables
         run: |
-          echo "ANDROID_SDK_ROOT=$HOME/.buildozer/android/platform/android-sdk" >> $GITHUB_ENV
-          echo "ANDROID_NDK_HOME=$HOME/.buildozer/android/platform/android-ndk" >> $GITHUB_ENV
           echo "PATH=$PATH:$HOME/.buildozer/android/platform/android-sdk/cmdline-tools/latest/bin:$HOME/.buildozer/android/platform/android-sdk/platform-tools" >> $GITHUB_ENV
           echo "PATH=$PATH:$HOME/.local/bin" >> $GITHUB_ENV
       
       - name: Install SDK components
         run: |
-          # Install platform-tools and other necessary components
-          sdkmanager "platform-tools" "platforms;android-31" "build-tools;31.0.0" --sdk_root=$ANDROID_SDK_ROOT
+          # Use absolute path to sdkmanager
+          $SDKMANAGER_PATH "platform-tools" "platforms;android-31" "build-tools;31.0.0"
         shell: bash
       
       - name: Accept SDK licenses
         run: |
-          yes | sdkmanager --licenses --sdk_root=$ANDROID_SDK_ROOT > /dev/null 2>&1 || true
+          # Use absolute path to sdkmanager
+          yes | $SDKMANAGER_PATH --licenses > /dev/null 2>&1 || true
+        shell: bash
       
       - name: Find buildozer.spec file
         run: |

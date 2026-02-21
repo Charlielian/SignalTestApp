@@ -1,10 +1,13 @@
 package com.signal.test.services;
 
+import android.Manifest;
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import androidx.core.app.ActivityCompat;
 
 public class LocationService {
     private Context context;
@@ -37,6 +40,11 @@ public class LocationService {
     
     // 开始定位
     public void startLocationUpdates() {
+        // 检查权限
+        if (!hasLocationPermission()) {
+            return;
+        }
+
         try {
             // 请求位置更新
             locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
@@ -57,11 +65,16 @@ public class LocationService {
     
     // 获取当前位置
     public Location getCurrentLocation() {
+        // 检查权限
+        if (!hasLocationPermission()) {
+            return null;
+        }
+
         try {
             // 尝试获取最后已知位置
             Location gpsLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
             Location networkLocation = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
-            
+
             if (gpsLocation != null) {
                 return gpsLocation;
             } else if (networkLocation != null) {
@@ -71,6 +84,12 @@ public class LocationService {
             e.printStackTrace();
         }
         return null;
+    }
+
+    // 检查位置权限
+    private boolean hasLocationPermission() {
+        return ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED
+                || ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED;
     }
     
     // 获取位置描述

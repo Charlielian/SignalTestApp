@@ -102,18 +102,18 @@ public class StorageUtils {
         if (cursor.moveToFirst()) {
             do {
                 SignalData data = new SignalData();
-                data.setId(cursor.getInt(cursor.getColumnIndex(COLUMN_ID)));
-                data.setOperator(cursor.getString(cursor.getColumnIndex(COLUMN_OPERATOR)));
-                data.setCgi(cursor.getString(cursor.getColumnIndex(COLUMN_CGI)));
-                data.setFrequency(cursor.getInt(cursor.getColumnIndex(COLUMN_FREQUENCY)));
-                data.setBand(cursor.getString(cursor.getColumnIndex(COLUMN_BAND)));
-                data.setRssi(cursor.getInt(cursor.getColumnIndex(COLUMN_RSSI)));
-                data.setNetworkType(cursor.getString(cursor.getColumnIndex(COLUMN_NETWORK_TYPE)));
-                data.setLatitude(cursor.getDouble(cursor.getColumnIndex(COLUMN_LATITUDE)));
-                data.setLongitude(cursor.getDouble(cursor.getColumnIndex(COLUMN_LONGITUDE)));
-                data.setLocation(cursor.getString(cursor.getColumnIndex(COLUMN_LOCATION)));
-                data.setTimestamp(cursor.getString(cursor.getColumnIndex(COLUMN_TIMESTAMP)));
-                data.setPhotoPath(cursor.getString(cursor.getColumnIndex(COLUMN_PHOTO_PATH)));
+                data.setId(cursor.getInt(cursor.getColumnIndexOrThrow(COLUMN_ID)));
+                data.setOperator(cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_OPERATOR)));
+                data.setCgi(cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_CGI)));
+                data.setFrequency(cursor.getInt(cursor.getColumnIndexOrThrow(COLUMN_FREQUENCY)));
+                data.setBand(cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_BAND)));
+                data.setRssi(cursor.getInt(cursor.getColumnIndexOrThrow(COLUMN_RSSI)));
+                data.setNetworkType(cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_NETWORK_TYPE)));
+                data.setLatitude(cursor.getDouble(cursor.getColumnIndexOrThrow(COLUMN_LATITUDE)));
+                data.setLongitude(cursor.getDouble(cursor.getColumnIndexOrThrow(COLUMN_LONGITUDE)));
+                data.setLocation(cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_LOCATION)));
+                data.setTimestamp(cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_TIMESTAMP)));
+                data.setPhotoPath(cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_PHOTO_PATH)));
                 dataList.add(data);
             } while (cursor.moveToNext());
         }
@@ -122,9 +122,10 @@ public class StorageUtils {
         return dataList;
     }
     
-    // 获取照片存储目录
+    // 获取照片存储目录 - 使用应用专属存储
     public File getPhotoDirectory() {
-        File directory = new File(Environment.getExternalStorageDirectory(), "SignalTest");
+        // 使用应用专属外部存储目录，无需权限且在卸载时自动清理
+        File directory = new File(context.getExternalFilesDir(Environment.DIRECTORY_PICTURES), "SignalTest");
         if (!directory.exists()) {
             directory.mkdirs();
         }

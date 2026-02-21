@@ -127,9 +127,10 @@ public class CameraUtils {
         return file.getAbsolutePath();
     }
     
-    // 获取照片存储目录
+    // 获取照片存储目录 - 使用应用专属存储
     public File getPhotoDirectory() {
-        File directory = new File(Environment.getExternalStorageDirectory(), "SignalTest");
+        // 使用应用专属外部存储目录，无需权限且在卸载时自动清理
+        File directory = new File(context.getExternalFilesDir(Environment.DIRECTORY_PICTURES), "SignalTest");
         if (!directory.exists()) {
             directory.mkdirs();
         }

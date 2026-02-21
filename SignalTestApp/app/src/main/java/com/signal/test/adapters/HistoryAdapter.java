@@ -52,17 +52,68 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.ViewHold
         holder.tvLocation.setText("位置: " + data.getLocation());
         
         // 设置缩略图
-        if (data.getPhotoPath() != null) {
-            Bitmap bitmap = BitmapFactory.decodeFile(data.getPhotoPath());
+        if (data.getPhotoPath() != null && !data.getPhotoPath().isEmpty()) {
+            Bitmap bitmap = loadScaledBitmap(data.getPhotoPath(), 200, 200);
             if (bitmap != null) {
                 holder.ivThumbnail.setImageBitmap(bitmap);
+            } else {
+                holder.ivThumbnail.setImageResource(R.drawable.ic_launcher_background);
             }
+        } else {
+            holder.ivThumbnail.setImageResource(R.drawable.ic_launcher_background);
         }
     }
     
     @Override
     public int getItemCount() {
         return signalDataList.size();
+    }
+
+    /**
+     * 加载缩放后的位图以避免内存溢出
+     * @param path 图片路径
+     * @param reqWidth 目标宽度
+     * @param reqHeight 目标高度
+     * @return 缩放后的位图
+     */
+    private Bitmap loadScaledBitmap(String path, int reqWidth, int reqHeight) {
+        try {
+            // 首先解码图片尺寸
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inJustDecodeBounds = true;
+            BitmapFactory.decodeFile(path, options);
+
+            // 计算缩放比例
+            options.inSampleSize = calculateInSampleSize(options, reqWidth, reqHeight);
+
+            // 使用缩放比例解码图片
+            options.inJustDecodeBounds = false;
+            options.inPreferredConfig = Bitmap.Config.RGB_565; // 使用更少内存
+            return BitmapFactory.decodeFile(path, options);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    /**
+     * 计算合适的缩放比例
+     */
+    private int calculateInSampleSize(BitmapFactory.Options options, int reqWidth, int reqHeight) {
+        final int height = options.outHeight;
+        final int width = options.outWidth;
+        int inSampleSize = 1;
+
+        if (height > reqHeight || width > reqWidth) {
+            final int halfHeight = height / 2;
+            final int halfWidth = width / 2;
+
+            while ((halfHeight / inSampleSize) >= reqHeight && (halfWidth / inSampleSize) >= reqWidth) {
+                inSampleSize *= 2;
+            }
+        }
+
+        return inSampleSize;
     }
     
     public class ViewHolder extends RecyclerView.ViewHolder {

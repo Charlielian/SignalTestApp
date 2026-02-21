@@ -19,6 +19,7 @@ import com.signal.test.R;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -108,9 +109,9 @@ public class BatchTestActivity extends AppCompatActivity {
             return;
         }
         
-        // 初始化测试数据
+        // 初始化测试数据 - 使用线程安全的列表
         testCount = 0;
-        batchTestData = new ArrayList<>();
+        batchTestData = Collections.synchronizedList(new ArrayList<>());
         isTesting = true;
         
         // 更新UI状态

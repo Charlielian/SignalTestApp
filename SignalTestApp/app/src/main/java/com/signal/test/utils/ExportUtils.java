@@ -23,8 +23,8 @@ public class ExportUtils {
     // 导出为CSV格式
     public boolean exportToCSV(List<SignalData> dataList, String fileName) {
         try {
-            // 创建存储目录
-            File directory = new File(Environment.getExternalStorageDirectory(), "SignalTest/Export");
+            // 使用应用专属外部存储目录
+            File directory = new File(context.getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS), "SignalTest/Export");
             if (!directory.exists()) {
                 directory.mkdirs();
             }
@@ -81,17 +81,17 @@ public class ExportUtils {
     // 生成批量测试报告（CSV格式）
     public String generateBatchTestReport(List<SignalData> batchTestData) {
         try {
-            // 创建存储目录
-            File directory = new File(Environment.getExternalStorageDirectory(), "SignalTest/Reports");
+            // 使用应用专属外部存储目录
+            File directory = new File(context.getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS), "SignalTest/Reports");
             if (!directory.exists()) {
                 directory.mkdirs();
             }
-            
+
             // 生成文件名
             String timeStamp = new java.text.SimpleDateFormat("yyyyMMdd_HHmmss").format(new java.util.Date());
             String fileName = "BatchTestReport_" + timeStamp;
             File file = new File(directory, fileName + ".csv");
-            
+
             // 创建文件输出流
             FileOutputStream fos = new FileOutputStream(file);
             OutputStreamWriter writer = new OutputStreamWriter(fos);

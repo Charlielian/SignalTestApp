@@ -197,12 +197,17 @@ public class MainActivity extends AppCompatActivity {
     
     private void updateSignalInfo() {
         SignalData data = signalCollector.getSignalData(selectedSimId);
-        
+
+        // 添加空值检查
+        if (data == null) {
+            return;
+        }
+
         if (show5GMode) {
             // 显示5G信息在主界面
             tvNetworkType.setText("5G");
             tvSignalStrength.setText(data.getRsrp() != 0 ? data.getRsrp() + " dBm" : "N/A");
-            tvOperator.setText(data.getOperator());
+            tvOperator.setText(data.getOperator() != null ? data.getOperator() : "未知");
             tvCgi.setText(data.getNrCgi() != null ? data.getNrCgi() : "N/A");
             tvFrequency.setText(data.getNrFrequency() != 0 ? String.valueOf(data.getNrFrequency()) : "N/A");
             tvBand.setText(data.getNrBand() != null ? data.getNrBand() : "N/A");
@@ -211,23 +216,23 @@ public class MainActivity extends AppCompatActivity {
             tvSinr.setText(data.getSinr() != 0 ? data.getSinr() + " dB" : "N/A");
             tvLocation.setText(locationService.getLocationDescription());
             tvTimestamp.setText(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
-            
+
             // 隐藏5G参数容器
             layout5gParams.setVisibility(View.GONE);
         } else {
             // 显示4G信息在主界面
-            tvNetworkType.setText(data.getNetworkType());
+            tvNetworkType.setText(data.getNetworkType() != null ? data.getNetworkType() : "未知");
             tvSignalStrength.setText(data.getRssi() + " dBm");
-            tvOperator.setText(data.getOperator());
-            tvCgi.setText(data.getCgi());
+            tvOperator.setText(data.getOperator() != null ? data.getOperator() : "未知");
+            tvCgi.setText(data.getCgi() != null ? data.getCgi() : "N/A");
             tvFrequency.setText(String.valueOf(data.getFrequency()));
-            tvBand.setText(data.getBand());
+            tvBand.setText(data.getBand() != null ? data.getBand() : "N/A");
             tvPci.setText(data.getPci() != 0 ? String.valueOf(data.getPci()) : "N/A");
             tvRssi.setText(data.getRssi() + " dBm");
             tvSinr.setText(data.getSinr() != 0 ? data.getSinr() + " dB" : "N/A");
             tvLocation.setText(locationService.getLocationDescription());
             tvTimestamp.setText(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
-            
+
             // 隐藏5G参数容器
             layout5gParams.setVisibility(View.GONE);
         }

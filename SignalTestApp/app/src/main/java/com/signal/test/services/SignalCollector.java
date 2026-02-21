@@ -219,14 +219,34 @@ public class SignalCollector {
     // 获取信号强度
     private int getSignalStrength(int subId) {
         try {
+            List<CellInfo> cellInfos;
             if (subId != -1 && Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP_MR1) {
                 TelephonyManager subTelephonyManager = telephonyManager.createForSubscriptionId(subId);
-                // 这里简化处理，实际应该使用PhoneStateListener或反射获取
+                cellInfos = subTelephonyManager.getAllCellInfo();
+            } else {
+                cellInfos = telephonyManager.getAllCellInfo();
+            }
+
+            if (cellInfos != null && !cellInfos.isEmpty()) {
+                for (CellInfo cellInfo : cellInfos) {
+                    if (cellInfo.isRegistered()) {
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q && cellInfo instanceof CellInfoNr) {
+                            // 5G信号强度
+                            CellInfoNr cellInfoNr = (CellInfoNr) cellInfo;
+                            CellSignalStrengthNr signalStrength = (CellSignalStrengthNr) cellInfoNr.getCellSignalStrength();
+                            return signalStrength.getSsRsrp();
+                        } else if (cellInfo instanceof CellInfoLte) {
+                            // 4G信号强度
+                            CellInfoLte cellInfoLte = (CellInfoLte) cellInfo;
+                            return cellInfoLte.getCellSignalStrength().getRsrp();
+                        }
+                    }
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return -75; // 默认值
+        return -999; // 返回无效值表示无法获取
     }
     
     // 获取信号强度

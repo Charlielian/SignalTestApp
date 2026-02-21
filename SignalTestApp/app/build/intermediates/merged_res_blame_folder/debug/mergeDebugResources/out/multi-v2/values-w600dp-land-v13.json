@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.signal.test.app-mergeDebugResources-28:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "com.signal.test.app-mergeDebugResources-37:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a3f3f419861ed1ecdbcebbc4a2c81181/transformed/material-1.4.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+                    "source": "/Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8b95ee18d9915621e92e49bffdc4caca/transformed/material-1.11.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

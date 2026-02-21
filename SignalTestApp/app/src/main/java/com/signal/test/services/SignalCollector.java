@@ -180,13 +180,13 @@ public class SignalCollector {
                         
                         // 获取频段
                         data.setBand(getBandFromEarfcn(identity.getEarfcn()));
-                        
+
                         // 获取LTE PCI
                         data.setPci(identity.getPci());
-                        
-                        // 获取LTE SINR
-                        data.setSinr(cellInfoLte.getCellSignalStrength().getSinr());
-                        
+
+                        // 获取LTE RSRP (SINR 在某些 API 级别不可用)
+                        data.setRssi(cellInfoLte.getCellSignalStrength().getRsrp());
+
                         break;
                     }
                     // 处理其他网络类型...

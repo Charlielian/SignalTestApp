@@ -4,56 +4,59 @@ ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软�
 INJECTED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:2:1-57:12
 INJECTED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:2:1-57:12
 INJECTED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:2:1-57:12
-MERGED from [com.google.android.material:material:1.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a3f3f419861ed1ecdbcebbc4a2c81181/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a8b3b956fff82af47142f92ed970702c/transformed/constraintlayout-2.1.2/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.camera:camera-view:1.0.0-alpha30] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/bdefc770cef3127ea4fc86ecf1d53e0e/transformed/camera-view-1.0.0-alpha30/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.appcompat:appcompat:1.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/b57bd61a242f6d3c5c32c68126a7682d/transformed/appcompat-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:17:1-38:12
-MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6ffa9fe79fa7d5c3320c0591cf5b5a85/transformed/camera-lifecycle-1.1.0-alpha10/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.camera:camera-core:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/11a5f0ae3ce8291d010e2fb3dd7cdaa7/transformed/camera-core-1.1.0-alpha10/AndroidManifest.xml:17:1-38:12
-MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/9562d4ddc703852726fe59c3372a9b3b/transformed/play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
-MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/48e2966a2d5930b6cf3f9fbfdc0b3775/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:2:1-20:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c8b02afc1087e0e2fb1196fe6f31ff3e/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/13b5ede89198651c43daa03210d717b1/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5e498351823db513435d7d226738fb3a/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/467e6426ab3991ec9a42cf54a107e6eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/0eeeb73225766d74a7c9c41fe55694ed/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/2f59ba658c16ae07442692b998b1f096/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/afce52016eed9d0568286920bcd1661a/transformed/appcompat-resources-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bf48556010122c89907720d18bda837/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/cab6ec1ae4fc903da87d192a3290bc6f/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f4303bcb46f6083b64b6c6048e32cd18/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/14faf8b555fb4ee38e30fbce66b37ff3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d8c02c79a805e9d551dcc5e26c2d4946/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ca80b6e0678788d0bb521e50a9574b53/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/505860c46e5bd119ef78669d044eb2c1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/34230c2f237fe18234aaba45cda2a083/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/9994a89630b307f0973a24bb2f99ea71/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/25c008ca4104e513f13993e785790fcb/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/724188c2b43be1d640b496e14e44bef2/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/1f02b9c71175bf14f0a30c2da736ec61/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.7.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/43c1a0d3844d0879f77bd921b2e5fc25/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/7bc245e20ac8219fca566b003471fa96/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/329021eccd73cf6df278e64614edd389/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4164bb7f5b97970f4c87633154f284e5/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4f8b581ef5f8d9a54a8eabc6d368f021/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/53958860ab82ddaf302084f36192bae2/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4394f620113d318641485db87aa3f280/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ff25f9ab87c91aca3301297fd7e75fe2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bef38f09f0f623828c2dee23fe37c11/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/b324538a7468216b77f632505380aaa4/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ba10515dcbc355cf0bdd720be0a5021d/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ec362e0a7f448e6092ea493e32a5e746/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/bf9be65c8f7589eab0e114c7d8a6262f/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6dcc36a2d218cb67945ce88b4f2b8c38/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ee690b2bd08db402e02cc5ed1b241765/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/1cc48169561874f286617b286c7e6a00/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/715add77bd719721af4fb12e5b67dd57/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/24c30d917441bbe14c79b384eaeae8e4/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4ffc0375c8ee2e2159bc77c669291dc2/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/2aacc267ca8701d71cec102e4a57d0dd/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.11.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8b95ee18d9915621e92e49bffdc4caca/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed01ff4bde4be391bd7acf64720c41ff/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.camera:camera-video:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c3c7854ba64c055e0855ce61b2473376/transformed/camera-video-1.3.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a6bfaf6bc8f6808da88d9cafe2aa5aa3/transformed/camera-lifecycle-1.3.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6b5579f357ff3c21ebd2e2570c1519dc/transformed/camera-camera2-1.3.1/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/15bc855dbcec455ef3d15cb958d8c649/transformed/camera-core-1.3.1/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-view:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a4096d8b07c985ee523495158288eb51/transformed/camera-view-1.3.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/7370c23ae58ac40c0572daf4c1fa8fdb/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a68ce2be50f30d8790f2b92f13d1c75a/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/52e3981208d187dd6aa365b8636064c9/transformed/play-services-location-21.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/871a6ce8c6961dedcf3d8a1a9812568c/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c1408eaf57cd68cc2c1fa9e7e908ea0b/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/081771aa16f3ad9901c30b491b62b68c/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ba78fde203b158d0aa1990ed00aeb03b/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f6b03b7103d7768b2e6e01bc58625ad1/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/456da2b875a4b27f57b315bd3bf765cd/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/2d6d128facd8bcf568d3815d48548ecc/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a7588f039ce4e3e51fdc8b1d26ce19c9/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/698a3c0cb5895fc48687758f2cb27694/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/b1b9a710e636cf154e8e92fe3a95b582/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/0ae5e0ba73ee4951cc4437938a2623d3/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/705ab777f0a3cb391ef381b7b644a86d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/1ddf126e1d4bd432961bb4b89f39972f/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5ec7665dfa356c0e81b9e05e6b8155a5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/713b94aaf490f6fbae9be2484ed308d6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4eb1f19aa196aa32acecfa9bbfb59574/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f39b3818c3119c00d70bb787212203c3/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a61edc9f5c405b156b3147256b4bc887/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/780379117b41d3dd7f8847b9542685d5/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/458cdcba69ba16caa2e7fab45b96d73a/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/729298ecb8743c431ce7cdb68301d1ff/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/673846e3b236fac76e03fd1c2a49d5ae/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c4784b297bd3a200bd599a8abf9e2361/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/82337b3088da2f1e0cf7597f604c7410/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5197424144d74536825e5b0e6125901e/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/736caa50c7c5be9c98ccc0ff25eae082/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/cc93cfedf6d9e0c037ada26a92a213a5/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/442a383e07ed407fefe59d10e1ef229c/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5c81de8c3f7d519d322f96adc9530001/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e610cadb024e57ce5bcb08c9922edd38/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c92ec4e4650b52282ddaee9c5479db6c/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5257290284fa707b4fef18b39cbad23e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ceefd1dd2da916ab5c259559409d9cf3/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/1e0966e8db127ef2590d5e299cbb81e0/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/98a6e4dc9910731b8c8e663129a6910c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d4bdbfca21ad3e79d3c6ba9e446bc5d1/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/36ff27a0ed16d457f9d3289e41f3022c/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/bba73ee034e304d2f08db52014598666/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/0107f5fecbd291dad01946c64abb6849/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f93f48cfe4eddb7e4919192f9bf6e505/transformed/annotation-experimental-1.3.1/AndroidManifest.xml:17:1-22:12
 	package
 		ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:3:5-30
 		INJECTED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml
@@ -85,8 +88,8 @@ ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软�
 		ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:10:22-77
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:11:5-79
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
 	android:name
 		ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:11:22-76
 uses-permission#android.permission.READ_PHONE_STATE
@@ -95,8 +98,8 @@ ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软�
 		ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:12:22-72
 uses-permission#android.permission.INTERNET
 ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:13:5-67
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:13:22-64
 uses-feature#android.hardware.camera
@@ -110,38 +113,40 @@ ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软�
 application
 ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:19:5-55:19
 INJECTED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:19:5-55:19
-MERGED from [com.google.android.material:material:1.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a3f3f419861ed1ecdbcebbc4a2c81181/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a3f3f419861ed1ecdbcebbc4a2c81181/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a8b3b956fff82af47142f92ed970702c/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a8b3b956fff82af47142f92ed970702c/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
-MERGED from [androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:25:5-36:19
-MERGED from [androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:25:5-36:19
-MERGED from [androidx.camera:camera-core:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/11a5f0ae3ce8291d010e2fb3dd7cdaa7/transformed/camera-core-1.1.0-alpha10/AndroidManifest.xml:25:5-36:19
-MERGED from [androidx.camera:camera-core:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/11a5f0ae3ce8291d010e2fb3dd7cdaa7/transformed/camera-core-1.1.0-alpha10/AndroidManifest.xml:25:5-36:19
-MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/9562d4ddc703852726fe59c3372a9b3b/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/9562d4ddc703852726fe59c3372a9b3b/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/13b5ede89198651c43daa03210d717b1/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/13b5ede89198651c43daa03210d717b1/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5e498351823db513435d7d226738fb3a/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5e498351823db513435d7d226738fb3a/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/467e6426ab3991ec9a42cf54a107e6eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/467e6426ab3991ec9a42cf54a107e6eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.core:core:1.7.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/43c1a0d3844d0879f77bd921b2e5fc25/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.7.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/43c1a0d3844d0879f77bd921b2e5fc25/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ff25f9ab87c91aca3301297fd7e75fe2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ff25f9ab87c91aca3301297fd7e75fe2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bef38f09f0f623828c2dee23fe37c11/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bef38f09f0f623828c2dee23fe37c11/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/b324538a7468216b77f632505380aaa4/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/b324538a7468216b77f632505380aaa4/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.material:material:1.11.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8b95ee18d9915621e92e49bffdc4caca/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8b95ee18d9915621e92e49bffdc4caca/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed01ff4bde4be391bd7acf64720c41ff/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed01ff4bde4be391bd7acf64720c41ff/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.camera:camera-camera2:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6b5579f357ff3c21ebd2e2570c1519dc/transformed/camera-camera2-1.3.1/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6b5579f357ff3c21ebd2e2570c1519dc/transformed/camera-camera2-1.3.1/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/15bc855dbcec455ef3d15cb958d8c649/transformed/camera-core-1.3.1/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/15bc855dbcec455ef3d15cb958d8c649/transformed/camera-core-1.3.1/AndroidManifest.xml:23:5-34:19
+MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/52e3981208d187dd6aa365b8636064c9/transformed/play-services-location-21.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/52e3981208d187dd6aa365b8636064c9/transformed/play-services-location-21.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/081771aa16f3ad9901c30b491b62b68c/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/081771aa16f3ad9901c30b491b62b68c/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ba78fde203b158d0aa1990ed00aeb03b/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ba78fde203b158d0aa1990ed00aeb03b/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f6b03b7103d7768b2e6e01bc58625ad1/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f6b03b7103d7768b2e6e01bc58625ad1/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/698a3c0cb5895fc48687758f2cb27694/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/698a3c0cb5895fc48687758f2cb27694/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/780379117b41d3dd7f8847b9542685d5/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/780379117b41d3dd7f8847b9542685d5/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5257290284fa707b4fef18b39cbad23e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5257290284fa707b4fef18b39cbad23e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ceefd1dd2da916ab5c259559409d9cf3/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ceefd1dd2da916ab5c259559409d9cf3/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
 		INJECTED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.7.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/43c1a0d3844d0879f77bd921b2e5fc25/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:22:9-35
 	android:label
@@ -158,8 +163,8 @@ ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软�
 		ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:27:13-58
 meta-data#com.google.android.gms.version
 ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:29:9-31:69
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/467e6426ab3991ec9a42cf54a107e6eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/467e6426ab3991ec9a42cf54a107e6eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f6b03b7103d7768b2e6e01bc58625ad1/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f6b03b7103d7768b2e6e01bc58625ad1/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
 	android:value
 		ADDED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml:31:13-66
 	android:name
@@ -214,181 +219,249 @@ uses-sdk
 INJECTED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml
 INJECTED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a3f3f419861ed1ecdbcebbc4a2c81181/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a3f3f419861ed1ecdbcebbc4a2c81181/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a8b3b956fff82af47142f92ed970702c/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a8b3b956fff82af47142f92ed970702c/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.camera:camera-view:1.0.0-alpha30] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/bdefc770cef3127ea4fc86ecf1d53e0e/transformed/camera-view-1.0.0-alpha30/AndroidManifest.xml:20:5-23:145
-MERGED from [androidx.camera:camera-view:1.0.0-alpha30] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/bdefc770cef3127ea4fc86ecf1d53e0e/transformed/camera-view-1.0.0-alpha30/AndroidManifest.xml:20:5-23:145
-MERGED from [androidx.appcompat:appcompat:1.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/b57bd61a242f6d3c5c32c68126a7682d/transformed/appcompat-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/b57bd61a242f6d3c5c32c68126a7682d/transformed/appcompat-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6ffa9fe79fa7d5c3320c0591cf5b5a85/transformed/camera-lifecycle-1.1.0-alpha10/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6ffa9fe79fa7d5c3320c0591cf5b5a85/transformed/camera-lifecycle-1.1.0-alpha10/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.camera:camera-core:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/11a5f0ae3ce8291d010e2fb3dd7cdaa7/transformed/camera-core-1.1.0-alpha10/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.camera:camera-core:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/11a5f0ae3ce8291d010e2fb3dd7cdaa7/transformed/camera-core-1.1.0-alpha10/AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/9562d4ddc703852726fe59c3372a9b3b/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/9562d4ddc703852726fe59c3372a9b3b/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
-MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/48e2966a2d5930b6cf3f9fbfdc0b3775/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
-MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/48e2966a2d5930b6cf3f9fbfdc0b3775/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c8b02afc1087e0e2fb1196fe6f31ff3e/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c8b02afc1087e0e2fb1196fe6f31ff3e/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/13b5ede89198651c43daa03210d717b1/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/13b5ede89198651c43daa03210d717b1/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5e498351823db513435d7d226738fb3a/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5e498351823db513435d7d226738fb3a/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/467e6426ab3991ec9a42cf54a107e6eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/467e6426ab3991ec9a42cf54a107e6eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/0eeeb73225766d74a7c9c41fe55694ed/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/0eeeb73225766d74a7c9c41fe55694ed/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/2f59ba658c16ae07442692b998b1f096/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/2f59ba658c16ae07442692b998b1f096/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/afce52016eed9d0568286920bcd1661a/transformed/appcompat-resources-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/afce52016eed9d0568286920bcd1661a/transformed/appcompat-resources-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bf48556010122c89907720d18bda837/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bf48556010122c89907720d18bda837/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/cab6ec1ae4fc903da87d192a3290bc6f/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/cab6ec1ae4fc903da87d192a3290bc6f/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f4303bcb46f6083b64b6c6048e32cd18/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f4303bcb46f6083b64b6c6048e32cd18/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/14faf8b555fb4ee38e30fbce66b37ff3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/14faf8b555fb4ee38e30fbce66b37ff3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d8c02c79a805e9d551dcc5e26c2d4946/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d8c02c79a805e9d551dcc5e26c2d4946/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ca80b6e0678788d0bb521e50a9574b53/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ca80b6e0678788d0bb521e50a9574b53/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/505860c46e5bd119ef78669d044eb2c1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/505860c46e5bd119ef78669d044eb2c1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/34230c2f237fe18234aaba45cda2a083/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/34230c2f237fe18234aaba45cda2a083/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/9994a89630b307f0973a24bb2f99ea71/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/9994a89630b307f0973a24bb2f99ea71/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/25c008ca4104e513f13993e785790fcb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/25c008ca4104e513f13993e785790fcb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/724188c2b43be1d640b496e14e44bef2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/724188c2b43be1d640b496e14e44bef2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/1f02b9c71175bf14f0a30c2da736ec61/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/1f02b9c71175bf14f0a30c2da736ec61/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.7.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/43c1a0d3844d0879f77bd921b2e5fc25/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.7.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/43c1a0d3844d0879f77bd921b2e5fc25/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/7bc245e20ac8219fca566b003471fa96/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/7bc245e20ac8219fca566b003471fa96/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/329021eccd73cf6df278e64614edd389/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/329021eccd73cf6df278e64614edd389/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4164bb7f5b97970f4c87633154f284e5/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4164bb7f5b97970f4c87633154f284e5/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4f8b581ef5f8d9a54a8eabc6d368f021/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4f8b581ef5f8d9a54a8eabc6d368f021/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/53958860ab82ddaf302084f36192bae2/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/53958860ab82ddaf302084f36192bae2/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4394f620113d318641485db87aa3f280/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4394f620113d318641485db87aa3f280/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ff25f9ab87c91aca3301297fd7e75fe2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ff25f9ab87c91aca3301297fd7e75fe2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bef38f09f0f623828c2dee23fe37c11/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bef38f09f0f623828c2dee23fe37c11/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/b324538a7468216b77f632505380aaa4/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/b324538a7468216b77f632505380aaa4/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ba10515dcbc355cf0bdd720be0a5021d/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ba10515dcbc355cf0bdd720be0a5021d/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ec362e0a7f448e6092ea493e32a5e746/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ec362e0a7f448e6092ea493e32a5e746/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/bf9be65c8f7589eab0e114c7d8a6262f/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/bf9be65c8f7589eab0e114c7d8a6262f/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6dcc36a2d218cb67945ce88b4f2b8c38/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6dcc36a2d218cb67945ce88b4f2b8c38/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ee690b2bd08db402e02cc5ed1b241765/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ee690b2bd08db402e02cc5ed1b241765/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/1cc48169561874f286617b286c7e6a00/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/1cc48169561874f286617b286c7e6a00/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/715add77bd719721af4fb12e5b67dd57/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/715add77bd719721af4fb12e5b67dd57/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/24c30d917441bbe14c79b384eaeae8e4/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/24c30d917441bbe14c79b384eaeae8e4/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4ffc0375c8ee2e2159bc77c669291dc2/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4ffc0375c8ee2e2159bc77c669291dc2/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/2aacc267ca8701d71cec102e4a57d0dd/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/2aacc267ca8701d71cec102e4a57d0dd/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-	tools:overrideLibrary
-		ADDED from [androidx.camera:camera-view:1.0.0-alpha30] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/bdefc770cef3127ea4fc86ecf1d53e0e/transformed/camera-view-1.0.0-alpha30/AndroidManifest.xml:23:9-142
+MERGED from [com.google.android.material:material:1.11.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8b95ee18d9915621e92e49bffdc4caca/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8b95ee18d9915621e92e49bffdc4caca/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed01ff4bde4be391bd7acf64720c41ff/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed01ff4bde4be391bd7acf64720c41ff/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.camera:camera-video:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c3c7854ba64c055e0855ce61b2473376/transformed/camera-video-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c3c7854ba64c055e0855ce61b2473376/transformed/camera-video-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a6bfaf6bc8f6808da88d9cafe2aa5aa3/transformed/camera-lifecycle-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a6bfaf6bc8f6808da88d9cafe2aa5aa3/transformed/camera-lifecycle-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6b5579f357ff3c21ebd2e2570c1519dc/transformed/camera-camera2-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6b5579f357ff3c21ebd2e2570c1519dc/transformed/camera-camera2-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/15bc855dbcec455ef3d15cb958d8c649/transformed/camera-core-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/15bc855dbcec455ef3d15cb958d8c649/transformed/camera-core-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-view:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a4096d8b07c985ee523495158288eb51/transformed/camera-view-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a4096d8b07c985ee523495158288eb51/transformed/camera-view-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/7370c23ae58ac40c0572daf4c1fa8fdb/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/7370c23ae58ac40c0572daf4c1fa8fdb/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a68ce2be50f30d8790f2b92f13d1c75a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a68ce2be50f30d8790f2b92f13d1c75a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/52e3981208d187dd6aa365b8636064c9/transformed/play-services-location-21.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/52e3981208d187dd6aa365b8636064c9/transformed/play-services-location-21.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/871a6ce8c6961dedcf3d8a1a9812568c/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/871a6ce8c6961dedcf3d8a1a9812568c/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c1408eaf57cd68cc2c1fa9e7e908ea0b/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c1408eaf57cd68cc2c1fa9e7e908ea0b/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/081771aa16f3ad9901c30b491b62b68c/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/081771aa16f3ad9901c30b491b62b68c/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ba78fde203b158d0aa1990ed00aeb03b/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ba78fde203b158d0aa1990ed00aeb03b/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f6b03b7103d7768b2e6e01bc58625ad1/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f6b03b7103d7768b2e6e01bc58625ad1/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/456da2b875a4b27f57b315bd3bf765cd/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/456da2b875a4b27f57b315bd3bf765cd/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/2d6d128facd8bcf568d3815d48548ecc/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/2d6d128facd8bcf568d3815d48548ecc/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a7588f039ce4e3e51fdc8b1d26ce19c9/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a7588f039ce4e3e51fdc8b1d26ce19c9/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/698a3c0cb5895fc48687758f2cb27694/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/698a3c0cb5895fc48687758f2cb27694/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/b1b9a710e636cf154e8e92fe3a95b582/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/b1b9a710e636cf154e8e92fe3a95b582/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/0ae5e0ba73ee4951cc4437938a2623d3/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/0ae5e0ba73ee4951cc4437938a2623d3/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/705ab777f0a3cb391ef381b7b644a86d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/705ab777f0a3cb391ef381b7b644a86d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/1ddf126e1d4bd432961bb4b89f39972f/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/1ddf126e1d4bd432961bb4b89f39972f/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5ec7665dfa356c0e81b9e05e6b8155a5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5ec7665dfa356c0e81b9e05e6b8155a5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/713b94aaf490f6fbae9be2484ed308d6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/713b94aaf490f6fbae9be2484ed308d6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4eb1f19aa196aa32acecfa9bbfb59574/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/4eb1f19aa196aa32acecfa9bbfb59574/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f39b3818c3119c00d70bb787212203c3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f39b3818c3119c00d70bb787212203c3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a61edc9f5c405b156b3147256b4bc887/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/a61edc9f5c405b156b3147256b4bc887/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/780379117b41d3dd7f8847b9542685d5/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/780379117b41d3dd7f8847b9542685d5/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/458cdcba69ba16caa2e7fab45b96d73a/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/458cdcba69ba16caa2e7fab45b96d73a/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/729298ecb8743c431ce7cdb68301d1ff/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/729298ecb8743c431ce7cdb68301d1ff/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/673846e3b236fac76e03fd1c2a49d5ae/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/673846e3b236fac76e03fd1c2a49d5ae/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c4784b297bd3a200bd599a8abf9e2361/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c4784b297bd3a200bd599a8abf9e2361/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/82337b3088da2f1e0cf7597f604c7410/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/82337b3088da2f1e0cf7597f604c7410/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5197424144d74536825e5b0e6125901e/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5197424144d74536825e5b0e6125901e/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/736caa50c7c5be9c98ccc0ff25eae082/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/736caa50c7c5be9c98ccc0ff25eae082/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/cc93cfedf6d9e0c037ada26a92a213a5/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/cc93cfedf6d9e0c037ada26a92a213a5/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/442a383e07ed407fefe59d10e1ef229c/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/442a383e07ed407fefe59d10e1ef229c/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5c81de8c3f7d519d322f96adc9530001/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5c81de8c3f7d519d322f96adc9530001/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e610cadb024e57ce5bcb08c9922edd38/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e610cadb024e57ce5bcb08c9922edd38/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c92ec4e4650b52282ddaee9c5479db6c/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/c92ec4e4650b52282ddaee9c5479db6c/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5257290284fa707b4fef18b39cbad23e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5257290284fa707b4fef18b39cbad23e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ceefd1dd2da916ab5c259559409d9cf3/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ceefd1dd2da916ab5c259559409d9cf3/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/1e0966e8db127ef2590d5e299cbb81e0/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/1e0966e8db127ef2590d5e299cbb81e0/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/98a6e4dc9910731b8c8e663129a6910c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/98a6e4dc9910731b8c8e663129a6910c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d4bdbfca21ad3e79d3c6ba9e446bc5d1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d4bdbfca21ad3e79d3c6ba9e446bc5d1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/36ff27a0ed16d457f9d3289e41f3022c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/36ff27a0ed16d457f9d3289e41f3022c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/bba73ee034e304d2f08db52014598666/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/bba73ee034e304d2f08db52014598666/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/0107f5fecbd291dad01946c64abb6849/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/0107f5fecbd291dad01946c64abb6849/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f93f48cfe4eddb7e4919192f9bf6e505/transformed/annotation-experimental-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/f93f48cfe4eddb7e4919192f9bf6e505/transformed/annotation-experimental-1.3.1/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
 		INJECTED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/charlie-macmini/Documents/python/优化工具/安卓测试软件/SignalTestApp/app/src/main/AndroidManifest.xml
 service#androidx.camera.core.impl.MetadataHolderService
-ADDED from [androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:26:9-35:19
-MERGED from [androidx.camera:camera-core:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/11a5f0ae3ce8291d010e2fb3dd7cdaa7/transformed/camera-core-1.1.0-alpha10/AndroidManifest.xml:31:9-35:45
-MERGED from [androidx.camera:camera-core:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/11a5f0ae3ce8291d010e2fb3dd7cdaa7/transformed/camera-core-1.1.0-alpha10/AndroidManifest.xml:31:9-35:45
+ADDED from [androidx.camera:camera-camera2:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6b5579f357ff3c21ebd2e2570c1519dc/transformed/camera-camera2-1.3.1/AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/15bc855dbcec455ef3d15cb958d8c649/transformed/camera-core-1.3.1/AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/15bc855dbcec455ef3d15cb958d8c649/transformed/camera-core-1.3.1/AndroidManifest.xml:29:9-33:78
 	tools:node
-		ADDED from [androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:31:13-31
+		ADDED from [androidx.camera:camera-camera2:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6b5579f357ff3c21ebd2e2570c1519dc/transformed/camera-camera2-1.3.1/AndroidManifest.xml:29:13-31
 	android:enabled
-		ADDED from [androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:28:13-36
+		ADDED from [androidx.camera:camera-camera2:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6b5579f357ff3c21ebd2e2570c1519dc/transformed/camera-camera2-1.3.1/AndroidManifest.xml:26:13-36
 	android:exported
-		ADDED from [androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:29:13-37
+		ADDED from [androidx.camera:camera-camera2:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6b5579f357ff3c21ebd2e2570c1519dc/transformed/camera-camera2-1.3.1/AndroidManifest.xml:27:13-37
 	tools:ignore
-		ADDED from [androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:30:13-42
+		ADDED from [androidx.camera:camera-camera2:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6b5579f357ff3c21ebd2e2570c1519dc/transformed/camera-camera2-1.3.1/AndroidManifest.xml:28:13-75
 	android:name
-		ADDED from [androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:27:13-75
+		ADDED from [androidx.camera:camera-camera2:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6b5579f357ff3c21ebd2e2570c1519dc/transformed/camera-camera2-1.3.1/AndroidManifest.xml:25:13-75
 meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
-ADDED from [androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:32:13-34:89
+ADDED from [androidx.camera:camera-camera2:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6b5579f357ff3c21ebd2e2570c1519dc/transformed/camera-camera2-1.3.1/AndroidManifest.xml:30:13-32:89
 	android:value
-		ADDED from [androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:34:17-86
+		ADDED from [androidx.camera:camera-camera2:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6b5579f357ff3c21ebd2e2570c1519dc/transformed/camera-camera2-1.3.1/AndroidManifest.xml:32:17-86
 	android:name
-		ADDED from [androidx.camera:camera-camera2:1.1.0-alpha10] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/d2a516c30c61bc0b3a8d6592bd7e2411/transformed/camera-camera2-1.1.0-alpha10/AndroidManifest.xml:33:17-103
+		ADDED from [androidx.camera:camera-camera2:1.3.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/6b5579f357ff3c21ebd2e2570c1519dc/transformed/camera-camera2-1.3.1/AndroidManifest.xml:31:17-103
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
 queries
-ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
 package#com.google.android.apps.maps
-ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
 uses-library#org.apache.http.legacy
-ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ed9549eaf3eb4d47890d79f95e87ed5c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/309d895942d9a962087a6d019f4d6660/transformed/play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/13b5ede89198651c43daa03210d717b1/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/081771aa16f3ad9901c30b491b62b68c/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/13b5ede89198651c43daa03210d717b1/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/081771aa16f3ad9901c30b491b62b68c/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/13b5ede89198651c43daa03210d717b1/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/081771aa16f3ad9901c30b491b62b68c/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/13b5ede89198651c43daa03210d717b1/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/081771aa16f3ad9901c30b491b62b68c/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bef38f09f0f623828c2dee23fe37c11/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bef38f09f0f623828c2dee23fe37c11/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/b324538a7468216b77f632505380aaa4/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/b324538a7468216b77f632505380aaa4/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/698a3c0cb5895fc48687758f2cb27694/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/780379117b41d3dd7f8847b9542685d5/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/780379117b41d3dd7f8847b9542685d5/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ceefd1dd2da916ab5c259559409d9cf3/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ceefd1dd2da916ab5c259559409d9cf3/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:30:13-31
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/698a3c0cb5895fc48687758f2cb27694/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/698a3c0cb5895fc48687758f2cb27694/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/698a3c0cb5895fc48687758f2cb27694/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/698a3c0cb5895fc48687758f2cb27694/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/698a3c0cb5895fc48687758f2cb27694/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/698a3c0cb5895fc48687758f2cb27694/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/5793bcfc1658fc2901110dcfd056d36a/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/698a3c0cb5895fc48687758f2cb27694/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bef38f09f0f623828c2dee23fe37c11/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/780379117b41d3dd7f8847b9542685d5/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bef38f09f0f623828c2dee23fe37c11/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/780379117b41d3dd7f8847b9542685d5/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/8bef38f09f0f623828c2dee23fe37c11/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/780379117b41d3dd7f8847b9542685d5/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.signal.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.signal.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/ecaec30700409a17881b0349323d9cab/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/charlie-macmini/.gradle/caches/9.2.1/transforms/e3985b40cdb81a49e58bce5fe19858e1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

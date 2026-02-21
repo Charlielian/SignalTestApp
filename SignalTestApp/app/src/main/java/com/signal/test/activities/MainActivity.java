@@ -72,14 +72,15 @@ public class MainActivity extends AppCompatActivity {
         tvLocation = findViewById(R.id.tv_location);
         tvTimestamp = findViewById(R.id.tv_timestamp);
         
-        // 初始化5G参数控件
-        layout5gParams = findViewById(R.id._5g_params_container);
-        tvNrCgi = findViewById(R.id.tv_nr_cgi);
-        tvNrFrequency = findViewById(R.id.tv_nr_frequency);
-        tvNrBand = findViewById(R.id.tv_nr_band);
-        tvRsrp = findViewById(R.id.tv_rsrp);
-        tvNrPci = findViewById(R.id.tv_nr_pci);
-        tvRsrq = findViewById(R.id.tv_rsrq);
+        // 初始化5G参数控件（如果布局中存在）
+        // 注意：这些 View 在当前布局中不存在，暂时注释掉
+        // layout5gParams = findViewById(R.id._5g_params_container);
+        // tvNrCgi = findViewById(R.id.tv_nr_cgi);
+        // tvNrFrequency = findViewById(R.id.tv_nr_frequency);
+        // tvNrBand = findViewById(R.id.tv_nr_band);
+        // tvRsrp = findViewById(R.id.tv_rsrp);
+        // tvNrPci = findViewById(R.id.tv_nr_pci);
+        // tvRsrq = findViewById(R.id.tv_rsrq);
         
         btnCamera = findViewById(R.id.btn_camera);
         btnHistory = findViewById(R.id.btn_history);
@@ -217,8 +218,10 @@ public class MainActivity extends AppCompatActivity {
             tvLocation.setText(locationService.getLocationDescription());
             tvTimestamp.setText(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
 
-            // 隐藏5G参数容器
-            layout5gParams.setVisibility(View.GONE);
+            // 隐藏5G参数容器（如果存在）
+            if (layout5gParams != null) {
+                layout5gParams.setVisibility(View.GONE);
+            }
         } else {
             // 显示4G信息在主界面
             tvNetworkType.setText(data.getNetworkType() != null ? data.getNetworkType() : "未知");
@@ -233,8 +236,10 @@ public class MainActivity extends AppCompatActivity {
             tvLocation.setText(locationService.getLocationDescription());
             tvTimestamp.setText(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
 
-            // 隐藏5G参数容器
-            layout5gParams.setVisibility(View.GONE);
+            // 隐藏5G参数容器（如果存在）
+            if (layout5gParams != null) {
+                layout5gParams.setVisibility(View.GONE);
+            }
         }
     }
     

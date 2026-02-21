@@ -57,10 +57,10 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.ViewHold
             if (bitmap != null) {
                 holder.ivThumbnail.setImageBitmap(bitmap);
             } else {
-                holder.ivThumbnail.setImageResource(R.drawable.ic_launcher_background);
+                holder.ivThumbnail.setImageResource(android.R.drawable.ic_menu_gallery);
             }
         } else {
-            holder.ivThumbnail.setImageResource(R.drawable.ic_launcher_background);
+            holder.ivThumbnail.setImageResource(android.R.drawable.ic_menu_gallery);
         }
     }
     

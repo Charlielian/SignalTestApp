@@ -26,7 +26,7 @@ jobs:
           sudo apt update
           sudo apt install -y build-essential ccache git zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev curl libbz2-dev
           sudo apt install -y openjdk-11-jdk
-          sudo apt install -y unzip
+          sudo apt install -y unzip libtool autoconf automake
           python -m pip install --upgrade pip
           pip install --upgrade setuptools wheel
           pip install buildozer cython==0.29.33

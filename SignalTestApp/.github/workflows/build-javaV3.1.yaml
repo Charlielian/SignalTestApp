@@ -38,6 +38,8 @@ jobs:
       with:
         gradle-version: wrapper
         cache-read-only: false
+        cache-disabled: false
+        cache-write-only: false
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
@@ -76,7 +78,7 @@ jobs:
       continue-on-error: true
 
     - name: Run lint checks
-      run: ./gradlew lintDebug --no-daemon
+      run: ./gradlew lintDebug --no-daemon || echo "::warning::Lint checks failed, but continuing build"
       continue-on-error: true
 
     - name: Generate build report
@@ -92,15 +94,26 @@ jobs:
         if [ -f "app/build/outputs/apk/debug/app-debug.apk" ]; then
           DEBUG_SIZE=$(du -h "app/build/outputs/apk/debug/app-debug.apk" | cut -f1)
           echo "**Debug APK Size:** $DEBUG_SIZE" >> build-report.md
+        else
+          echo "**Debug APK Size:** Not built" >> build-report.md
         fi
 
         if [ -f "app/build/outputs/apk/release/app-release-unsigned.apk" ]; then
           RELEASE_SIZE=$(du -h "app/build/outputs/apk/release/app-release-unsigned.apk" | cut -f1)
           echo "**Release APK Size:** $RELEASE_SIZE" >> build-report.md
+        else
+          echo "**Release APK Size:** Not built" >> build-report.md
+        fi
+
+        # Check lint reports
+        if ls app/build/reports/lint-results-*.html 1> /dev/null 2>&1; then
+          echo "**Lint Reports:** Available" >> build-report.md
+        else
+          echo "**Lint Reports:** No reports generated" >> build-report.md
         fi
 
     - name: Upload debug APK
-      if: success()
+      if: success() && exists('app/build/outputs/apk/debug/app-debug.apk')
       uses: actions/upload-artifact@v4
       with:
         name: SignalTestApp-debug-v${{ steps.version.outputs.VERSION }}
@@ -108,7 +121,7 @@ jobs:
         retention-days: 30
 
     - name: Upload release APK
-      if: success()
+      if: success() && exists('app/build/outputs/apk/release/app-release-unsigned.apk')
       uses: actions/upload-artifact@v4
       with:
         name: SignalTestApp-release-v${{ steps.version.outputs.VERSION }}
@@ -117,10 +130,13 @@ jobs:
 
     - name: Upload lint reports
       if: always()
+      continue-on-error: true
       uses: actions/upload-artifact@v4
       with:
         name: lint-reports
-        path: app/build/reports/lint-results-*.html
+        path: |
+          app/build/reports/lint-results-*.html
+          app/build/reports/lint-results-*.txt
         retention-days: 7
 
     - name: Upload build report

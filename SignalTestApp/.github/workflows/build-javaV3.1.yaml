@@ -2,7 +2,7 @@ name: Build Android APK V3.1
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main, develop, fix-buildozer-issue ]
     tags:
       - 'v*'
   pull_request:

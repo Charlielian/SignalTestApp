@@ -131,24 +131,30 @@ public class MainActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP_MR1) {
             SubscriptionManager subscriptionManager = (SubscriptionManager) getSystemService(SubscriptionManager.class);
             if (subscriptionManager != null) {
-                subscriptionInfoList = subscriptionManager.getActiveSubscriptionInfoList();
-                if (subscriptionInfoList != null && !subscriptionInfoList.isEmpty()) {
-                    // 创建SIM卡选择器的数据源
-                    java.util.ArrayList<String> simCardList = new java.util.ArrayList<>();
-                    simCardList.add("请选择SIM卡");
-                    for (SubscriptionInfo info : subscriptionInfoList) {
-                        simCardList.add("SIM " + info.getSimSlotIndex() + ": " + info.getCarrierName());
+                // 检查权限
+                if (checkSelfPermission(Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED) {
+                    subscriptionInfoList = subscriptionManager.getActiveSubscriptionInfoList();
+                    if (subscriptionInfoList != null && !subscriptionInfoList.isEmpty()) {
+                        // 创建SIM卡选择器的数据源
+                        java.util.ArrayList<String> simCardList = new java.util.ArrayList<>();
+                        simCardList.add("请选择SIM卡");
+                        for (SubscriptionInfo info : subscriptionInfoList) {
+                            simCardList.add("SIM " + info.getSimSlotIndex() + ": " + info.getCarrierName());
+                        }
+                        
+                        // 创建适配器
+                        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, simCardList);
+                        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                        simCardSpinner.setAdapter(adapter);
+                        
+                        // 默认选择第一个SIM卡
+                        if (subscriptionInfoList.size() > 0) {
+                            simCardSpinner.setSelection(1);
+                        }
                     }
-                    
-                    // 创建适配器
-                    ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, simCardList);
-                    adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                    simCardSpinner.setAdapter(adapter);
-                    
-                    // 默认选择第一个SIM卡
-                    if (subscriptionInfoList.size() > 0) {
-                        simCardSpinner.setSelection(1);
-                    }
+                } else {
+                    // 没有权限，显示提示
+                    Toast.makeText(this, "需要电话权限来获取SIM卡信息", Toast.LENGTH_SHORT).show();
                 }
             }
         }

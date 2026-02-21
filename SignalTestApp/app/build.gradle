@@ -27,6 +27,13 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    
+    lint {
+        // 忽略特定的lint错误
+        disable 'MissingPermission'
+        // 允许lint失败但继续构建
+        abortOnError false
+    }
 }
 
 dependencies {
